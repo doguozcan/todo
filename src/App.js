@@ -27,7 +27,7 @@ export default function App() {
       <p className="text-3xl md:text-4xl lg:text-5xl m-2 md:m-5 text-neon-mint text-center">
         Todo List
       </p>
-      <div className="bg-neon-purple p-10 mx-auto max-w-md rounded-lg">
+      <div className="bg-neon-purple p-10 mx-auto max-w-md rounded-lg overflow-auto">
         <form
           onSubmit={handleSubmit}
           className="flex items-center justify-between space-x-2 m-2"
@@ -82,7 +82,11 @@ export default function App() {
                   />
                 </svg>
               </button>
-              <p className={`flex-1 ${todo.completed ? 'line-through' : ''}`}>
+              <p
+                className={`flex-1 ${
+                  todo.completed ? 'line-through' : ''
+                } line-clamp-1`}
+              >
                 {todo.text}
               </p>
               <button
