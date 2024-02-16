@@ -7,8 +7,8 @@ This Todo List Application is an interactive web project built using React.js an
 ## Features
 
 - **Task Management**: Easily add, mark as complete, and delete tasks.
-  Real-time Updates: The UI updates in real-time as tasks are added, toggled, or removed.
-- **State Management**: Utilizes Redux for efficient management of application state, ensuring scalability and maintainability.
+- **Real-time Updates**: The UI updates in real-time as tasks are added, toggled, or removed.
+- **State Management**: Utilizes Redux and Redux Toolkit for efficient management of application state, ensuring scalability and maintainability.
 - **Responsive Layout**: Designed with Tailwind CSS, ensuring a nice user experience across all device sizes.
 
 ## Getting Started
