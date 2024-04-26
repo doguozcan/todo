@@ -4,6 +4,10 @@
 
 This Todo List Application is an interactive web project built using React.js and styled with Tailwind CSS. It provides a good interface for users to manage their daily tasks effectively. Leveraging Redux for state management, the application offers functionalities to add, toggle, and delete tasks with ease. It may be a good starter project for developers aiming to enhance their React and especially state management skills using Redux and Redux Toolkit.
 
+## Screenshot
+
+![todo](https://github.com/doguozcan/todo/assets/76822280/6edae4b9-ee9b-42c4-a8da-eae8d6629ac1)
+
 ## Features
 
 - **Task Management**: Easily add, mark as complete, and delete tasks.
